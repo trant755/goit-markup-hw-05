@@ -521,7 +521,7 @@ body {
     width: 172px;
     height: 92px;
 
-    transition: background-color 250ms var(--hover-cubic), color 250ms var(--hover-cubic);
+    transition: border-color 250ms var(--hover-cubic), color 250ms var(--hover-cubic);
     color: var(--icon-grey);
     border: 1px solid var(--icon-grey);
     border-radius: 4px;
@@ -578,7 +578,7 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
 
-    transition: background-color 250ms var(--hover-cubic), color 250ms var(--hover-cubic);
+    transition: color 250ms var(--hover-cubic);
     color: #ffffff99;
 }
 
