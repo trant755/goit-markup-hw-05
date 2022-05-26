@@ -550,6 +550,10 @@ body {
     align-items: baseline;
 }
 
+.logo-address {
+    margin-right: 85px;
+}
+
 .footer .logo {
     margin: 0;
 }
@@ -588,7 +592,7 @@ body {
 }
 
 .social-box {
-    margin-left: 85px;
+    margin-right: 90px;
 }
 
 .social-box .title {
@@ -611,6 +615,77 @@ body {
     background-color: var(--color-accent);
 }
 
+
+
+/* ПОДПИШИСЬ */
+
+.subscribe-box .label {
+    width: 570px;
+}
+
+.subscribe-box .label-text {
+    display: block;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+   
+
+    color: var(--white);
+}
+
+.subscribe-form .input {
+    display: block;
+    padding: 15px 16px;
+    width: 358px;
+    margin-right: 12px;
+
+
+    color: var(--white);
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+}
+
+.subscribe-form .input:focus {
+    outline-color: transparent;
+}
+
+.form-btn-box {
+    display: flex;
+}
+
+.subscribe-form .input::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe-form .btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 28px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+
+    color: var(--white);
+    background-color: var(--color-accent);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.subscribe-form .btn:hover,
+.subscribe-form .btn:focus {
+    background-color: #188CE8;
+}
+
+.subscribe-form .icon {
+    margin-left: 10px;
+}
 
 /* ===============
     PORTFOLIO
